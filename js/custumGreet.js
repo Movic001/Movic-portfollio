@@ -9,7 +9,7 @@ function greet() {
   //   let seconds = date.getSeconds();
   //   console.log("Hours: " + Hours, "minutes: " + minutes, "seconds: " + seconds);
 
-  if (Hours >= 12 && Hours < 12) {
+  if (Hours >= 0 && Hours < 12) {
     Greet.innerHTML = `${welcome}, Good Morning`;
   } else if (Hours >= 12 && Hours < 16) {
     Greet.innerHTML = `${welcome}, Good Afternoon `;
